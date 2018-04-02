@@ -1,8 +1,8 @@
-<app-search-location></app-search-location>
-
-<p>
-  home-page works!
-</p>
+{{message}}
+<form class="form-wrapper" (submit)="onSearchLocation(address.value)">
+    <input type="text" class="search" placeholder="Search for address..." required #address /><br>
+    <button type='submit' id="submit">Search</button>
+</form>
 
 <table class="table table-responsive table-condensed">
   <th><b>Address</b></th>

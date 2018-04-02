@@ -6,14 +6,12 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
-import { SearchLocationComponent } from './search-location/search-location.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomePageComponent,
-    SearchLocationComponent
+    HomePageComponent
   ],
   imports: [
     BrowserModule,
