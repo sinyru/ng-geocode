@@ -1,0 +1,16 @@
+<app-search-location></app-search-location>
+
+<p>
+  home-page works!
+</p>
+
+<table class="table table-responsive table-condensed">
+  <th><b>Address</b></th>
+  <th><b>Longitude</b></th>
+  <th><b>Latitude</b></th>
+  <tr *ngFor="let searchedLocation of searchedLocations">
+    <td>{{searchedLocation.address}}</td>
+    <td>{{searchedLocation.lng}}</td>
+    <td>{{searchedLocation.lat}}</td>
+  </tr>
+</table>
